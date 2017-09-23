@@ -1,0 +1,22 @@
+<div class="footer">
+	<div class="row">
+	<div class="col-sm-4">
+	<p><small>&copy; dayashankar 2017</small></p>
+	</div>
+
+    <div class="col-sm-4 centeredTextDiv">
+    <a class="lowercase" href="mailto:daya.shankar58@gmail.com">daya.shankar58@gmail.com</a>
+    </div>
+    
+
+	<div class="col-sm-4">
+	<p class="pull-right"><small><a href="/about" title="About this site">About this site</a></small></p>
+    
+    {% if page.updateDate != null %}
+    <p class="pull-right"><small>updated: {{ page.updateDate }}</small></p>
+    {% endif %}
+
+    
+	</div>
+	</div>
+</div> <!-- /footer -->
